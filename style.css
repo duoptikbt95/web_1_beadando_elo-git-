@@ -1,0 +1,44 @@
+/* ==========================================
+   MINDEN ALAPHELYZETBE ÁLLÍTÁSA (RESET)
+   ========================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+    background-color: #f4f7f6;
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden; /* Letiltja az oldalsó kibillenést */
+}
+
+/* ==========================================
+   KÖZPONTI TARTALMI DOBOZ (EZ TARTJA KÖZÉPEN AZ EGÉSZ OLDALT)
+   ========================================== */
+.site-wrapper {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto; /* Tűpontosan középre zárja a teljes oldalt */
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* ==========================================
+   FEJLÉC ÉS MENÜSOR STÍLUSAI
+   ========================================== */
+header {
+    background-color: #1a252f;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
